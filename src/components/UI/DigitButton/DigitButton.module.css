@@ -1,0 +1,13 @@
+.digitButton {
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(58, 56, 56);
+    color: white;
+    cursor: pointer;
+    transition: all 0.1s linear;
+    &:hover {
+        opacity: 0.8;
+    }
+}
